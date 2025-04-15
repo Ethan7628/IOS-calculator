@@ -91,7 +91,7 @@ const Calculator = () => {
             <h1>My Calculator</h1>
 
             <div className="calculator">
-            <marquee behavior="alternate" direction="x">Made By Ethan Kusasirakwe        <span>&copy; 2025</span> </marquee>
+           
                 <div className="display">
                     <p>{currentInput || "0"}</p>
                 </div>
@@ -120,7 +120,9 @@ const Calculator = () => {
                     <button className="btn dark wide" onClick={() => appendNumber(0)}>0</button>
                     <button className="btn dark" onClick={appendDecimal}>.</button>
                     <button className="btn orange" onClick={calculateResult}>=</button>
+                
                 </div>
+                <marquee behavior="alternate" direction="x">Made By Ethan Kusasirakwe        <span>&copy; 2025</span> </marquee>
             </div>
         </div>
 
